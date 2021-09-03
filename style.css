@@ -84,9 +84,8 @@ a{
 
 .catogory-headings{
 	height: 40px;
-	margin: 10px 0 0 30px;
-	padding: 5px;
-
+	margin: 20px 0 20px 40px;
+	padding: 5px 0 10px 0;
 }
 
 .product-box{
@@ -95,7 +94,7 @@ a{
 	border-radius: 15px;
 	overflow: hidden;
 	position: relative;
-	margin-left: 10px;
+	margin-left: 30px;
 }
 
 
@@ -116,13 +115,13 @@ a{
 	box-sizing: border-box;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: white;
-	height: 80px;
-	padding: 10px;
+	height: 100px;
+	padding: 15px;
 }
 
 .item-name a{
 	color:#47005B;
-	font-weight: 700;
+	font-weight: 800;
 	letter-spacing: 0.5px;
 	font-size: 0.9rem;
 	max-width: 100%;
@@ -144,12 +143,10 @@ a{
 
 
 .div-wrapper{
-	position: relative;
 	width: 100%;
-	height: 320px;
-	margin: 20px 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	height: 350px;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
 		
@@ -158,39 +155,6 @@ ul.products li{
 	list-style-type: none;
 		}
 
-.next-pre-buttons{
-	background-color:#3D3D3D;
-	color: white;
-	font-size: 30px;
-	margin: -220px 5px;
-	height: 220px;
-	width: 30px;
-	cursor: pointer;
-	border: none;
-	position: absolute;
-	z-index: 1;
-	
-}
-
-.next{
-	
-	border-radius: 0px 5px 5px 0px;
-	right: 5px;
-}
-
-.pre{
-	
-	border-radius: 5px 0px 0px 5px;
-	left: 5px;
-}
-
-.next-pre-buttons:active{
-	background-color: #370450;
-}
-body {
-	margin: 0;
-	padding: 0;
-}
 .main {
 	max-height: 550px;;
 	background-color: #292c2f;
