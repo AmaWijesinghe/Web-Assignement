@@ -22,7 +22,7 @@ figure{
 }
 
 
-nav{background-color: white; font-size: 15px;width: 100%; height:50px; margin-top: 0; position: fixed;z-index:1;} 
+nav{background-color: white; font-size: 15px;width: 100%; height:auto; margin-top: 0; position: fixed;z-index:1; flex-wrap: wrap;} 
 nav ul { 
   display: flex;
   margin: 0;
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 
-.logo{ float:left; object-fit: cover; height:100%; padding-left: 0;}
+.logo{ float:left; object-fit: cover; height:50px; width: 50px;; padding-left: 0;}
 
 nav ul li  {
    
@@ -83,15 +83,16 @@ a{
 }
 
 .catogory-headings{
+	text-align: center;
 	height: 40px;
-	margin: 20px 0 20px 40px;
+	margin: 20px 20px 0 40px;
+	position: relative;
 	padding: 5px 0 10px 0;
+	color: white;
 }
 
 .product-box{
   	width: 180px;
-	border-radius: 15px;
-	overflow: hidden;
 	position: relative;
 	margin: 20px;
 }
@@ -106,54 +107,60 @@ a{
 	width: 100%;
 	height: 100%;
 	object-fit: fill;
+	border-radius: 20px 20px 0 0 ;
 }
 
 .slide-txt{
 	width: 100%;
-	align-items: center;
 	box-sizing: border-box;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: white;
 	height: 100px;
 	padding: 15px;
+	border-radius: 0 0 20px 20px;
+
 }
 
 .item-name a{
 	color:#1C1C1C;
-	font-weight: 700;
-
+	height: 50px;
+	font-weight: 900;
 	letter-spacing: 0.5px;
 	font-size: 0.9rem;
-	max-width: 100%;
-	white-space:normal;
-	text-align: left;
 
+}
+
+.item-name h5{
+	color: #191919;
 }
 
 
 .price{
-	color:#710994;
-	font-weight: 600;
+	color:#000000;
+	height: 30px;
 	font-size: 0.9rem;
-	font-weight: 900;
+	font-weight: 200;
 	letter-spacing: 0.5px;
 	position: absolute; bottom:10px; right: 10px;
 }
 
 .div-wrapper{
-	height: 400px;
-	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
 }
-		
-ul.products li{
-	display: inline-block;
-	list-style-type: none;
-		}
 
- 
-ul.products li:hover{
-	cursor: pointer;
+.all-items{
+	width: 100%;
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
 }
+
+
+
 
 
 .main {
@@ -165,7 +172,6 @@ ul.products li:hover{
 	line-height: 550px;
 }
 footer{
-	position: fixed;
 	bottom: 0;
 }
 .footer-distributed{
@@ -290,10 +296,9 @@ footer{
 
 .footer-distributed .footer-icons a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
-	background-color:  #33383b;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -330,4 +335,9 @@ footer{
 		font-size: auto;
 	}
 
+}
+
+.footer-icons img{
+	width: 40px;
+	height: 40px;
 }
