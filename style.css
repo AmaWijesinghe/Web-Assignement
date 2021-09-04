@@ -146,6 +146,8 @@ a{
 
 .div-wrapper{
 	width: 100%;
+	height: auto;
+	align-items: baseline;
 	display: flex;
 	padding: 10px;
 	flex-wrap: wrap;
