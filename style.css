@@ -147,22 +147,12 @@ a{
 .div-wrapper{
 	width: 100%;
 	height: auto;
-	align-items: baseline;
 	display: flex;
-	padding: 10px;
+	padding: 0 20px;
 	flex-wrap: wrap;
 	margin-bottom: 30px;
+	justify-content: center;
 }
-
-.all-items{
-	width: 100%;
-	display: flex;
-	padding: 10px;
-	flex-wrap: wrap;
-}
-
-
-
 
 
 .main {
