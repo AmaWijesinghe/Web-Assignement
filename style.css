@@ -84,9 +84,8 @@ a{
 
 .catogory-headings{
 	height: 40px;
-	margin: 10px 0 0 30px;
-	padding: 5px;
-
+	margin: 20px 0 20px 40px;
+	padding: 5px 0 10px 0;
 }
 
 .product-box{
@@ -115,13 +114,14 @@ a{
 	box-sizing: border-box;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	background-color: white;
-	height: 80px;
-	padding: 10px;
+	height: 100px;
+	padding: 15px;
 }
 
 .item-name a{
 	color:#1C1C1C;
 	font-weight: 700;
+
 	letter-spacing: 0.5px;
 	font-size: 0.9rem;
 	max-width: 100%;
@@ -152,9 +152,11 @@ ul.products li{
 	list-style-type: none;
 		}
 
+ 
 ul.products li:hover{
 	cursor: pointer;
 }
+
 
 .main {
 	max-height: 550px;;
