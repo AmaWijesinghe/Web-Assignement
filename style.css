@@ -48,14 +48,6 @@ nav ul li a {
 
 .logo{ float:left; object-fit: fill; height:60px; width: 60px;  padding-left: 5px; cursor: pointer;}
 
-.images{
-	width: 40px;
-	height: 40px;
-	object-fit: fill;
-	padding-left: 5px;
-	cursor: pointer;
-}
-
 .nav-div{
 	display: inline-block;
 	width: 100%;
@@ -225,7 +217,7 @@ a{
 }
 
 .brands{
-	margin: 100px 0;
+	margin: 100px 0 0;
 	
 }
 
@@ -242,17 +234,10 @@ a{
 }
 
 .brands-col img{
-	width: 120px;
+	width: 140px;
 	height: 100px;
 	cursor: pointer;
-	filter: grayscale(100%);
 }
-
-.brands-col img:hover{
-	filter: grayscale(0);
-}
-
-
 
 
 .main {
