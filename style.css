@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 
-.logo{ float:left; object-fit: cover; height:50px; width: 50px;; padding-left: 0;}
+.logo{ float:left; object-fit: cover; height:50px; width: 50px; padding-left: 0; cursor: pointer;}
 
 nav ul li  {
    
