@@ -46,7 +46,7 @@ nav ul li a {
 
 
 
-.logo{ float:left; object-fit: fill; height:60px; width: 60px; padding-left: 5px; cursor: pointer;}
+.logo{ float:left; object-fit: fill; height:60px; width: 60px;  padding-left: 5px; cursor: pointer;}
 
 .nav-div{
 	display: inline-block;
@@ -203,6 +203,41 @@ a{
 	padding: 50px 0;
 }
 
+.offer-col h1{
+	margin: 20px 0;
+}
+
+.btn-buy{
+	display: inline-block;
+	background-color:#4D227C;
+	color: white;
+	padding: 10px 20px;
+	margin: 20px 0;
+	border-radius: 15px;
+}
+
+.brands{
+	margin: 100px 0 0;
+	
+}
+
+.brands-row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 150px;
+}
+
+.brands-col{
+	width: 160px;
+}
+
+.brands-col img{
+	width: 140px;
+	height: 100px;
+	cursor: pointer;
+}
 
 
 .main {
