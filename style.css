@@ -182,6 +182,30 @@ a{
 	justify-content: center;
 }
 
+.offer{
+	display:flex;
+	color: white;
+	background: radial-gradient(#6F5F90, black);
+}
+
+.offer-row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.offer-col{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.offer-col img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+
 
 .main {
 	max-height: 550px;;
