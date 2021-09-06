@@ -20,31 +20,25 @@
         
 		<div class="nav-div"><a href="#"><img class="logo" src="instamoblogo.png"></a>
         
-        <ul>
-            <li class="dropdown"><a href="#">Contact Us</a> 
-                   <div class="dropdown-content">
-                  <a href="#">FaceBook</a>
-                  <a href="#">Instagram</a>
-                  <a href="#">Email</a>
-                </div></li>
-                <li class="dropdown"><a href="#">Storage devices</a>
-                    <div class="dropdown-content">
-                        <a href="#">Pen drives and SD cards</a>
-                        <a href="#">SSD's and Portable Hard Drives</a>
-                     </div></li>
-            <li class="dropdown"><a href="#">Computer accesories</a>
-           <div class="dropdown-content">
-            <a href="#">KeyBoards</a>
-            <a href="#">Mouse</a>
-            <a href="#"> Other Computer accesories</a>
-            </div></li>
-            <li class="dropdown"><a href="#">Speakers and headphones</a>
+        <ul  id="menuItems">
+			<li class="dropdown" ><a href="#">Home</a>
+                </li>
+			
+			
+            <li class="dropdown" ><a href="#">SmartPhones</a>
                 <div class="dropdown-content">
-                    <a href="#">Speakers </a>
-                    <a href="#">Headphones</a>
-                </div>
-			</li>
-           <li class="dropdown"><a href="#">Smartphone cases</a>
+                    <a href="#">iPhones </a>
+                    <a href="#">Android smartphones</a>
+                 </div></li>
+			
+			<li class="dropdown" ><a href="#">Smartphone accesories</a>
+                <div class="dropdown-content">
+                    <a href="#">Chargers</a>
+                    <a href="#">Earphones</a>
+                    <a href="#">Other Smartphone accesories</a>
+				</div></li>
+			
+			 <li class="dropdown"><a href="#">Smartphone cases</a>
             <div class="dropdown-content">
                 <a href="#">Transparent cases</a>
                 <a href="#">Silicon cases </a>
@@ -52,31 +46,45 @@
                 </div>
         
         </li>
-            <li class="dropdown"><a href="#">Smartphone accesories</a>
+			
+			
+			 <li class="dropdown"><a href="#">Speakers and headphones</a>
                 <div class="dropdown-content">
-                    <a href="#">Chargers</a>
-                    <a href="#">Earphones</a>
-                    <a href="#">Other Smartphone accesories</a>
-                    </div>
-            
-            </li>
-            <li class="dropdown"><a href="#">SmartPhones</a>
-                <div class="dropdown-content">
-                    <a href="#">iPhones </a>
-                    <a href="#">Android smartphones</a>
-                 </div></li>
+                    <a href="#">Speakers </a>
+                    <a href="#">Headphones</a>
+                </div>
+			</li>
 			
-			 <li class="dropdown"><a href="#">Home</a>
-                </li>
+			 <li class="dropdown"><a href="#">Computer accesories</a>
+           <div class="dropdown-content">
+            <a href="#">KeyBoards</a>
+            <a href="#">Mouse</a>
+            <a href="#"> Other Computer accesories</a>
+            </div></li>
 			
-			<li class="dropdown logo"><a href="#"><img src="cart-image.png" width="30px" height="30px" ></a>
-                </li>
+			<li class="dropdown"><a href="#">Storage devices</a>
+                    <div class="dropdown-content">
+                        <a href="#">Pen drives and SD cards</a>
+                        <a href="#">SSD's and Portable Hard Drives</a>
+                     </div></li>
 			
-			<li class="dropdown logo"><a href="#"><img src="menu-icon.png" width="30px" height="30px" ></a>
-                </li>
+            <li class="dropdown"><a href="#">Contact Us</a> 
+                   <div class="dropdown-content">
+                  <a href="#">FaceBook</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">Email</a>
+                </div></li>
+                
+           
+          </ul>
 			
 			
-          </ul></div>
+		<a href="#"><img src="cart-image.png" id="cart-image" ></a>
+
+			<a href="#"><img src="menu-icon.png" class="menu-icon" onClick="menutoggle()"></a>
+
+				
+		</div>
 
    </nav> 
     <div id="mainSlider">
@@ -900,7 +908,25 @@
         </footer>
 	
 	
-
+<!---------------js for toggle menu--------------->
+	<script>
+		var menu = document.getElementById("menuItems");
+		
+		menu.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(menu.style.maxHeight=="0px")
+			{
+				menu.style.maxHeight = "20px";
+			}
+			
+			else{
+				menu.style.maxHeight = "0px";
+			}
+		}
+	
+	
+	</script>
 
 </body>
 </html>
