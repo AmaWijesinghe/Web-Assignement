@@ -22,7 +22,7 @@ figure{
 }
 
 
-nav{background-color: white; font-size: 17px;width: 100%; height:auto; margin-top: 0; position: fixed;z-index:1; flex-wrap: wrap;} 
+nav{background-color: white; font-size: 17px;width: 100%; height:auto; margin-top: 0; position: fixed; z-index: 1; flex-wrap: wrap;} 
 nav ul { 
   display: flex;
   margin: 0 100px 0 0;
@@ -31,16 +31,12 @@ nav ul {
   
 }
 
-#menuItems ul{
-	list-style: none; position:relative; 
-float:right;
-}
-nav ul li{list-style: none; position:relative; 
-float:right;}
+nav ul li{ list-style: none; position:relative; 
+float:right; height: 100%;}
 nav ul li a {
   display: inline-block;
   color: black;
-  padding: 17px 12px;
+  padding: 17px 16px;
   text-decoration: none;
   height: 100%;
 }
@@ -51,7 +47,7 @@ nav ul li a {
 
 
 
-.logo{ float:left; object-fit: fill; height:60px; width: 60px;  padding-left: 5px; cursor: pointer;}
+.logo{ float:left; object-fit: fill; height:55px; width: 60px;  padding-left: 5px; cursor: pointer;}
 
 .nav-div{
 	display: inline-block;
@@ -112,12 +108,18 @@ a{
 	display: none;
 }
 
+
+
+
+
+
+
 /*-----------media query for menu----------*/
 
 @media only screen and (max-width: 990px){
 	nav ul{
 		position: absolute;
-		top:65px;
+		top:59px;
 		left: 0;
 		background-color:white;
 		width: 100%;
@@ -142,6 +144,8 @@ a{
 	color: white;
 	
 }
+
+
 
 .catogory-headings::after{
 	content: '';
